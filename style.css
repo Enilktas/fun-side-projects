@@ -1,0 +1,36 @@
+
+@font-face {
+  font-family: 'Micro5';
+  src: url('Micro5Charted-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+img
+{
+  border-radius: 80px;
+}
+header{
+  font-size: 60px;
+  font-family:"Micro5";
+  font-weight: bold;
+}
+h2{font-size: 25px;}
+
+body{;
+  background-color:DarkKhaki;
+  background-image: linear-gradient(to bottom, olive, LightGoldenRodYellow);
+  color:darkslategray; 
+  font-family:"Micro5";
+  text-align: center;
+ }
+
+a{
+  background-color:NavajoWhite;
+  font-size:50px;
+  border-radius:15px;
+  padding:8px;
+  display: inline-block;
+  margin: 10px;
+  color: olive;
+  text-align: center;
+}
