@@ -1,36 +1,51 @@
-
 @font-face {
-  font-family: 'Micro5';
-  src: url('Micro5Charted-Regular.ttf') format('truetype');
+  font-family: 'Reda5';
+  src: url('./Redaction50/Redaction50-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-img
-{
+img {
   border-radius: 80px;
+  max-width: 100%;
+  height: auto;
 }
-header{
-  font-size: 60px;
-  font-family:"Micro5";
-  font-weight: bold;
+header {
+  font-size: clamp(2rem, 8vw, 3.75rem);
+  font-family: "Reda5";
+  font-weight: 700;
 }
-h2{font-size: 25px;}
+h2 {
+  font-size: clamp(1.25rem, 5vw, 1.5625rem);
+}
 
-body{;
-  background-color:DarkKhaki;
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  min-height: 100svh;
+  margin: 0;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  background-color: DarkKhaki;
   background-image: linear-gradient(to bottom, olive, LightGoldenRodYellow);
-  color:darkslategray; 
-  font-family:"Micro5";
+  color: darkslategray;
+  font-family: "Reda5";
   text-align: center;
- }
-
-a{
-  background-color:NavajoWhite;
-  font-size:50px;
-  border-radius:15px;
-  padding:8px;
+a {
+  background-color: NavajoWhite;
+  font-size: clamp(1.25rem, 6vw, 3.125rem);
+  border-radius: 15px;
   display: inline-block;
+  padding: 8px;
   margin: 10px;
   color: olive;
   text-align: center;
 }
+
+main {
+  width: min(100%, 48rem);
+}
+
+audio {
+  max-width: 100%;
+} 
